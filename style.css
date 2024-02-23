@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.c{
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  border-radius: 4px;
+  text-align: center;
+}
+h3{
+    margin-top: 35px;
+    color: aliceblue;
+}
+.c:nth-child(odd){
+    background-color: black;
+}
+.c:nth-child(even){
+    background-color: #013d04;
+}
+.c:nth-child(10){
+    background-color: tomato;
+}
+.c:nth-child(3){
+    background-color: tomato;
+}
